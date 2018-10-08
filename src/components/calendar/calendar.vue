@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="my-4">
     <vue-event-calendar :events="events">
       <template slot-scope="props">
         <div class="_scroll">

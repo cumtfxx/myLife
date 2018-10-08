@@ -8,7 +8,9 @@ import 'vue-event-calendar/dist/style.css'
 import './assets/css/bootstrap.css'
 import './assets/css/reset.css'
 // import router from './router'
+import VueParticles from 'vue-particles'  
 
+Vue.use(VueParticles)
 Vue.use(vueEventCalendar, {locale: 'zh'})
 
 Vue.config.productionTip = false
